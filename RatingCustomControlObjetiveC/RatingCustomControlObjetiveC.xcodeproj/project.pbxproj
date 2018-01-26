@@ -13,6 +13,7 @@
 		FA471742201A785B00C4D26A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA471741201A785B00C4D26A /* Assets.xcassets */; };
 		FA471745201A785B00C4D26A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA471743201A785B00C4D26A /* LaunchScreen.storyboard */; };
 		FA471748201A785C00C4D26A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA471747201A785C00C4D26A /* main.m */; };
+		FA471750201A80A100C4D26A /* RatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FA47174F201A80A100C4D26A /* RatingControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FA471744201A785B00C4D26A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA471746201A785B00C4D26A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA471747201A785C00C4D26A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA47174E201A80A100C4D26A /* RatingControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingControl.h; sourceTree = "<group>"; };
+		FA47174F201A80A100C4D26A /* RatingControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		FA471737201A785B00C4D26A /* RatingCustomControlObjetiveC */ = {
 			isa = PBXGroup;
 			children = (
+				FA47174E201A80A100C4D26A /* RatingControl.h */,
+				FA47174F201A80A100C4D26A /* RatingControl.m */,
 				FA471738201A785B00C4D26A /* AppDelegate.h */,
 				FA471739201A785B00C4D26A /* AppDelegate.m */,
 				FA47173B201A785B00C4D26A /* ViewController.h */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA471750201A80A100C4D26A /* RatingControl.m in Sources */,
 				FA47173D201A785B00C4D26A /* ViewController.m in Sources */,
 				FA471748201A785C00C4D26A /* main.m in Sources */,
 				FA47173A201A785B00C4D26A /* AppDelegate.m in Sources */,
