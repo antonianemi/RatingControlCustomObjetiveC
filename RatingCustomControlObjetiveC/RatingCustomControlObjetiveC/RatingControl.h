@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+IB_DESIGNABLE
 @interface RatingControl : UIStackView
 -(instancetype)initWithFrame:(CGRect)frame;
 -(instancetype)initWithCoder:(NSCoder *)coder;
+@property(nonatomic) IBInspectable CGSize starSize;
+@property(nonatomic) IBInspectable int starCount;
+@property(nonatomic) NSUInteger rating;
 @end
